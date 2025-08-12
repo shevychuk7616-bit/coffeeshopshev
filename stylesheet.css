@@ -1,0 +1,289 @@
+/* use colours #4E3B31 #A65E2E #1B1E18 #FFFDFA #2F332D #C4BEB5 */
+/* use font Swanky and Moo Moo and Delius */
+
+   
+
+body {
+    background-color: #4e3b31;
+}
+
+.nav-bar {
+    background-color: #a65e2e;
+    border: #a65e2e solid;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}   
+
+.nav-bar a:hover{
+    color: #FFFFFF;
+}
+
+#nav-bar-footer a:hover{
+    color: #FFFFFF;
+}
+.nav-bar .logo {
+    align-self: stretch;
+    justify-content: space-around;
+}
+.nav-bar > *:first-child {
+    margin-right: 55%;
+}
+a {
+    text-decoration: none;
+    font-size: 150%;
+    color: #1c1c1c;
+}
+.coffee-bar {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#nav-bar-footer {
+    height: 75px;
+    background-color: #a65e2e;
+    border: #a65e2e solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav-bar-footer .flogo {
+    align-self: stretch;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+    font-size: 500%;
+    color: #fffdfa
+}
+p {
+    text-align: center;
+    font-size: 300%;
+    color: #fffdfa;
+}
+
+h2 {
+    color: #fffdfa;
+}
+
+#drinks-trio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.Pastries-trio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.drink-names {
+    text-align: center;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.drink-prices {
+    text-align: center;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 1%;
+}
+
+.pastries-names {
+    text-align: center;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: auto;
+    margin-left: 1%;
+}
+
+.pastries-prices {
+     text-align: center;
+    font-size: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 1%;
+    margin-left: auto;
+}
+
+@media (max-width: 800px){
+    h1 {
+        font-size: 30px;
+    }
+    p{
+        font-size: 17px;
+    }
+    a{
+        font-size: 17px;
+    }
+    .nav-bar .logo {
+        height: auto;
+        width: auto;
+    }
+     .nav-bar > *:first-child {
+        margin-right: 1%;
+     }
+     .coffee-bar{
+        height: 50%;
+        width: 50%;
+        margin-left: 25%;
+     }
+     h2{
+        font-size: 20px;
+     }
+     #drinks-trio{
+        margin-right: 25%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+     }
+     .Pastries-trio{
+        margin-right: 25%;
+        margin-left: 25%;
+        display: flex;
+        justify-content: center;
+    }
+    .espresso {
+        height: 250px;
+        width: 250px ;
+    }
+    .latte {
+        height: 250px;
+        width: 250px ;
+    }
+    .iced {
+        height: 250px;
+        width: 250px ;
+    }
+     .cinnamon {
+        height: 250px;
+        width: 250px ;
+    } 
+    .croissant {
+        height: 250px;
+        width: 250px ;
+    }
+    .pain  {
+        height: 250px;
+        width: 250px ;
+    }
+}
+@media (max-width: 675px){
+     .Pastries-trio{
+        margin-right: 25%;
+        margin-left: 25%;
+     }
+
+     .cinnamon {
+        height: 100px;
+        width: 150px ;
+    } 
+    .croissant {
+        height: 100px;
+        width: 150px ;
+    }
+    .pain  {
+        height: 100px;
+        width: 150px ;
+    }
+    #drinks-trio {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .espresso{
+         height: 100px;
+        width: 150px ;
+    }
+    .latte{
+         height: 100px;
+        width: 150px ;
+    }
+    .iced{
+         height: 100px;
+        width: 150px ;
+    }
+}
+
+@media (max-width: 500px){
+    h1 {
+        margin-top: 50%;
+        font-size: 24px;
+    }
+    p{
+        font-size: 13px;
+    }
+    a{
+        font-size: 9px;
+    }
+    .nav-bar .logo {
+        height: auto;
+        width: auto;
+    }
+     .nav-bar > *:first-child {
+        margin-right: 5%;
+     }
+     .coffee-bar{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 10%;
+    height: auto;
+        margin-top: 90%;
+        margin-bottom: 85%;
+        height: 1px;
+        width: 1px;
+     }
+     .Pastries-trio{
+        margin-right: 25%;
+        margin-left: 25%;
+     }
+
+     .cinnamon {
+        height: 100px;
+        width: 90px ;
+    } 
+    .croissant {
+        height: 100px;
+        width: 90px ;
+    }
+    .pain  {
+        height: 100px;
+        width: 90px ;
+    }
+ #drinks-trio {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .espresso{
+         height: 100px;
+        width: 90px ;
+    }
+    .latte{
+         height: 100px;
+        width: 90px ;
+    }
+    .iced{
+         height: 100px;
+        width: 90px ;
+    }
+}
+    
+
